@@ -12,7 +12,19 @@ A command-line interface for interacting with AI models via OpenRouter.
 - File context support (analyze code, documents, etc.)
 - Conversation history management
 
-## Installation
+
+## Easy install
+```bash
+npm install -g shelly-ai
+
+shelly-ai --setup
+
+or
+
+sa --setup
+```
+
+## Installation from code
 
 ```bash
 # Clone the repository
