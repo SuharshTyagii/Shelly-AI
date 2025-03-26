@@ -41,8 +41,8 @@ async function setupWizard(config) {
     console.log(chalk.yellow(`Keeping current model: ${config.model}`));
   }
   
-  config.siteUrl = await question(`Site URL [${config.siteUrl}]: `) || config.siteUrl;
-  config.siteName = await question(`Site Name [${config.siteName}]: `) || config.siteName;
+  config.siteUrl = config.siteUrl;
+  config.siteName = config.siteName;
   
   const maxHistoryInput = await question(`Maximum conversation turns to remember [${config.maxHistoryLength}]: `);
   if (maxHistoryInput && !isNaN(parseInt(maxHistoryInput))) {

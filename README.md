@@ -1,6 +1,7 @@
 # Shelly-AI
 
-A command-line interface for interacting with AI models via OpenRouter.
+A command-line interface for interacting with AI models (GPT-4o, Claude, Deepseek, etc) via OpenRouter.
+![How to use normally](./media/demo1.gif)
 
 ## Features
 
@@ -8,21 +9,28 @@ A command-line interface for interacting with AI models via OpenRouter.
 - One-time query mode
 - Automatic command detection and execution
 - Configuration wizard
-- Model selection from popular models
+- Model selection from popular models.
 - File context support (analyze code, documents, etc.)
 - Conversation history management
 
 
 ## Easy install
+
+Firstly you will need API keys from [Openrouter](https://openrouter.ai/settings/keys)
 ```bash
 npm install -g shelly-ai
 
+```
+Then run
+```bash
 shelly-ai --setup
 
 or
 
 sa --setup
 ```
+
+Paste your API key that you obtained from https://openrouter.ai/settings/keys here, and select a model of your choice.
 
 ## Installation from code
 
@@ -76,7 +84,10 @@ sa --continue "How do I list all Docker containers?"
 ```bash
 # Analyze a file
 sa -f ./myfile.js "Can you explain this code?"
+```
+![How to use for files](./media/demo2.gif)
 
+```bash
 # Analyze multiple files
 sa -f ./myfile.js ./otherfile.txt "What do these files do?"
 
