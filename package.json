@@ -1,6 +1,6 @@
 {
   "name": "shelly-ai",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A command-line utility for chatting with AI models via OpenRouter API",
   "main": "bin/shelly-ai.js",
   "bin": {

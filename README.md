@@ -5,7 +5,7 @@ A command-line interface for interacting with AI models (GPT-4o, Claude, Deepsee
 
 
 It's available on npmjs.com at https://www.npmjs.com/package/shelly-ai 
- 
+
 ## Features
 
 - Interactive chat with AI models
@@ -33,7 +33,7 @@ or
 sa --setup
 ```
 
-Paste your API key that you obtained from https://openrouter.ai/settings/keys here, and select a model of your choice.
+Paste your API key that you obtained from https://openrouter.ai/settings/keys here, and select a model of your choice. You can choose any models (Free or Paid) from https://openrouter.ai/models.
 
 ## Installation from code
 
