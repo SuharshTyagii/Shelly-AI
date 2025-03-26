@@ -14,7 +14,7 @@ async function setupWizard(config) {
   console.log(chalk.blue('Shelly-AI Setup Wizard'));
   console.log(chalk.blue('----------------------'));
 
-  config.apiKey = await question(`OpenRouter API Key [${config.apiKey}]: `) || config.apiKey;
+  config.apiKey = await question(`OpenRouter API Key , obtain from https://openrouter.ai/settings/keys [${config.apiKey}]: `) || config.apiKey;
   
   // Display predefined models
   console.log(chalk.green('\nAvailable models:'));
