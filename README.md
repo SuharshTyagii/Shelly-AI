@@ -3,6 +3,9 @@
 A command-line interface for interacting with AI models (GPT-4o, Claude, Deepseek, etc) via OpenRouter.
 ![How to use normally](./media/demo1.gif)
 
+
+It's available on npmjs.com at https://www.npmjs.com/package/shelly-ai 
+ 
 ## Features
 
 - Interactive chat with AI models
