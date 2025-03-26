@@ -13,7 +13,17 @@ async function startChat(config, argv, initialHistory = null) {
     output: process.stdout,
   });
 
-  console.log(chalk.blue(`Shelly-AI -> Using model: ${config.model}`));
+console.log(chalk.blue(String.raw`
+    
+  _________.__           .__  .__                     _____  .___ 
+ /   _____/|  |__   ____ |  | |  | ___.__.           /  _  \ |   |
+ \_____  \ |  |  \_/ __ \|  | |  |<   |  |  ______  /  /_\  \|   |
+ /        \|   Y  \  ___/|  |_|  |_\\___  | /_____/ /    |    \   |
+/_______  /|___|  /\___  >____/____/ ____|         \____|__  /___|
+        \/      \/     \/          \/                      \/     
+
+    -> Using model: ${config.model}
+`));
   console.log(chalk.blue('Type .exit or Ctrl+C to quit, .clear to clear history'));
   console.log(chalk.blue('Use .help to see all commands\n'));
 
